@@ -1,6 +1,8 @@
 package euler1
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // Problem 1 「3と5の倍数」
 // 10未満の自然数のうち, 3 もしくは 5 の倍数になっているものは 3, 5, 6, 9 の4つがあり, これらの合計は 23 になる.
@@ -9,11 +11,10 @@ import "fmt"
 func Execute(){
 	fmt.Println("Problem 1 「3と5の倍数」")
 	fmt.Println("----")
-
-	calc(1000)
+	fmt.Println(calc(1000))
 }
 
-func calc(num int){
+func calc(num int) int{
 	ans := 0
 
 	for i := 1; i < num; i++ {
@@ -22,5 +23,5 @@ func calc(num int){
 		}
 	}
 
-	fmt.Println(ans)
+	return ans
 }
