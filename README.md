@@ -8,7 +8,7 @@
 ## 実行
 
 ```
-go run main.go
+go run main.go {実行する問題番号}
 ```
 
 ## テスト実行
