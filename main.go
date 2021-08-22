@@ -12,8 +12,8 @@ func main(){
 
 	switch flag.Arg(0){
 		case "1":
-			euler1.Execute();
+			euler1.Execute()
 		case "2":
-			euler2.Execute();
+			euler2.Execute()
 	}
 }
