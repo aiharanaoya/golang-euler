@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 
-	"github.com/aostein/golang-euler/euler1"
-	"github.com/aostein/golang-euler/euler2"
-	"github.com/aostein/golang-euler/euler3"
+	"github.com/nao11aihara/golang-euler/euler1"
+	"github.com/nao11aihara/golang-euler/euler2"
+	"github.com/nao11aihara/golang-euler/euler3"
 )
 
 func main(){
